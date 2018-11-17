@@ -1,0 +1,68 @@
+body {
+    font-family: 'Shrikhand', cursive;
+    background: #fe8c00;
+    /* fallback for old browsers */
+
+    background: -webkit-linear-gradient(to right, #f83600, #fe8c00);
+    /* Chrome 10-25, Safari 5.1-6 */
+
+    background: linear-gradient(to right, #f83600, #fe8c00);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+}
+#container {
+    margin: 0 auto;
+    background: orange;
+    width: 50%;
+    box-shadow: 0 0 20px #69E2E5;
+    text-align: center;
+}
+a {
+	text-decoration: none;
+	color: aliceblue;;
+}
+a i {
+	color: #3bc148;
+}
+h1 {
+    background: #3bc148;
+    color: aliceblue;
+    
+   /* padding: 0 20px; */
+    text-transform: uppercase;
+    font-size: 200%;
+    font-weight: 200;
+    margin: 0;
+}
+span {
+    color: #f83600;
+}
+input {
+    font-size: 200%;
+    background: #69E2E5;
+    color: #3bc148;
+    width: 99%;
+    /*box-sizing: border-box;*/
+	text-align: center;
+}
+input:focus {
+    background: aliceblue;
+
+}
+ul {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    background: white;
+    height: 40px;
+    line-height: 40px;
+}
+
+li:nth-child(2n) {
+    background: #3bc148;
+}
